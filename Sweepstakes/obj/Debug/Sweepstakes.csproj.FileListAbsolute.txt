@@ -1,0 +1,7 @@
+C:\Users\julie\Documents\devcode\Sweepstakes\Sweepstakes\obj\Debug\Sweepstakes.csprojAssemblyReference.cache
+C:\Users\julie\Documents\devcode\Sweepstakes\Sweepstakes\obj\Debug\Sweepstakes.csproj.CoreCompileInputs.cache
+C:\Users\julie\Documents\devcode\Sweepstakes\Sweepstakes\bin\Debug\Sweepstakes.exe.config
+C:\Users\julie\Documents\devcode\Sweepstakes\Sweepstakes\bin\Debug\Sweepstakes.exe
+C:\Users\julie\Documents\devcode\Sweepstakes\Sweepstakes\bin\Debug\Sweepstakes.pdb
+C:\Users\julie\Documents\devcode\Sweepstakes\Sweepstakes\obj\Debug\Sweepstakes.exe
+C:\Users\julie\Documents\devcode\Sweepstakes\Sweepstakes\obj\Debug\Sweepstakes.pdb

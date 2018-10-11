@@ -6,15 +6,19 @@ using System.Threading.Tasks;
 
 namespace Sweepstakes
 {
-    public class Contestant
+    public interface ISweepstakes
     {
-        public string firstName;
-        public string lastName;
-        public string email;
-        public int registrationNumber;
+        
+    }
+
+    void InsertSweepstakes(Sweepstakes sweepstakes)
+    {
         
 
+    }
 
-      
+    public class Sweepstakes GetSweepstakes()
+    {
+
     }
 }

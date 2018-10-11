@@ -22,6 +22,9 @@ namespace Sweepstakes
             Console.Write("Last name of contestant");
             contestant.lastName = Console.ReadLine();
             Console.Write("Constestant's email");
+            contestant.email = Console.ReadLine();
+            // Random rnd = new Random();
+            // contestant.registrationNumber = rnd.Next(1, 30);
 
             return contestant;
 
