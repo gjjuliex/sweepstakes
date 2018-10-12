@@ -29,11 +29,7 @@ namespace Sweepstakes
             if (randomNumber == contestant.registrationNumber)
             {
                 PrintContestantInfo(contestant);
-            }
-            else
-            {
-                // PickWinner();
-            }
+            }       
             return "";
               
         }

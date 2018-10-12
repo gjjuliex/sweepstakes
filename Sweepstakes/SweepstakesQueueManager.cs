@@ -8,5 +8,11 @@ namespace Sweepstakes
 {
     class SweepstakesQueueManager
     {
+
+        public void UseQueue()
+        {
+            Queue<Contestant> qu = new Queue<Contestant>();
+
+        }
     }
 }
