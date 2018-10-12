@@ -11,14 +11,14 @@ namespace Sweepstakes
         
     }
 
-    void InsertSweepstakes(Sweepstakes sweepstakes)
-    {
+    //void InsertSweepstakes(Sweepstakes sweepstakes)
+    //{
         
 
-    }
+    //}
 
-    public class Sweepstakes GetSweepstakes()
-    {
+    //public class Sweepstakes GetSweepstakes()
+    //{
 
-    }
+    //}
 }

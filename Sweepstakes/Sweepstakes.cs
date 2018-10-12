@@ -28,7 +28,7 @@ namespace Sweepstakes
             int randomNumber = rnd.Next(1, dictionary.Count);
             if (randomNumber == contestant.registrationNumber)
             {
-                
+                PrintContestantInfo(contestant);
             }
             else
             {
@@ -41,6 +41,7 @@ namespace Sweepstakes
         public void PrintContestantInfo(Contestant contestant)
         {
 
+            Console.Write("Winner is {1}" , contestant.registrationNumber);
         }
         
     }

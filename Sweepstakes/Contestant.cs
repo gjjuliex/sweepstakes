@@ -12,9 +12,6 @@ namespace Sweepstakes
         public string lastName;
         public string email;
         public int registrationNumber;
-        
-
-
-      
+        internal object resitrantionNumber;
     }
 }
