@@ -75,7 +75,7 @@ namespace Sweepstakes
         }
         public void RegisterContestant(Contestant contestant)
         {
-            contestants.Add(contestant.registrationNumber, contestant);
+            contestants.Add(contestant.regisNumber, contestant);
         }
         public string PickWinner()
         {
@@ -86,7 +86,7 @@ namespace Sweepstakes
         }
         public void PrintContestantInfo(Contestant contestant)
         {
-            Console.WriteLine("Information for contestant registration number: {0}\nName: {1} {2}\nEmail Address: {3}", contestant.registrationNumber, contestant.firstName, contestant.lastName, contestant.emailAddress);
+            Console.WriteLine("Information for contestant registration number: {0}\nName: {1} {2}\nEmail Address: {3}", contestant.regisNumber, contestant.firstName, contestant.lastName, contestant.emailAddress);
         }
         public void SetSweepStakesName()
         {
@@ -97,7 +97,7 @@ namespace Sweepstakes
         {
             foreach (KeyValuePair<Guid, Contestant> keyvaluepair in contestants)
             {
-                Console.WriteLine(keyvaluepair.Value.firstName + " " + keyvaluepair.Value.lastName + " Registration Number: " + keyvaluepair.Value.registrationNumber);
+                Console.WriteLine(keyvaluepair.Value.firstName + " " + keyvaluepair.Value.lastName + " Registration Number: " + keyvaluepair.Value.regisNumber);
             }
         }
     }
