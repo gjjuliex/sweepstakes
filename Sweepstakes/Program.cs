@@ -10,14 +10,12 @@ namespace Sweepstakes
     {
         static void Main(string[] args)
         {
-          //test 
-          //Sweepstakes test = new Sweepstakes("NEW CAR!");
-
-          //  for (int i = 1; i < 3; i++)
-          //  {
-          //      Contestant newEntrant = new Contestant();
-          //      test.RegisterContestant(newEntrant);
-          //  }         
+            while (true)
+            {
+                SweepstakesFactory sweepstakesFactory = new SweepstakesFactory();
+                MarketingFirm newFirm = new MarketingFirm(sweepstakesFactory.DetermineManager(UserInterface.GetManagerType()));
+                newFirm.DetermineMarketFirmAction();
+            }
         }
     }
 }
