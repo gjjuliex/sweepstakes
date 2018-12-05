@@ -86,7 +86,7 @@ namespace Sweepstakes
         }
         public void PrintContestantInfo(Contestant contestant)
         {
-            Console.WriteLine("Information for contestant registration number: {0}\nName: {1} {2}\nEmail Address: {3}", contestant.regisNumber, contestant.firstName, contestant.lastName, contestant.emailAddress);
+            Console.WriteLine("Information for contestant registration number: {0}\nName: {1} {2}\nEmail Address: {3}", contestant.regisNumber, contestant.firstName, contestant.lastName, contestant.email);
         }
         public void SetSweepStakesName()
         {
